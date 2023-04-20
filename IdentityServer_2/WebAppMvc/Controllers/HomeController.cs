@@ -1,6 +1,9 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json.Linq;
 using System.Diagnostics;
+using System.Net.Http.Headers;
 using WebAppMvc.Models;
 
 namespace WebAppMvc.Controllers
@@ -15,8 +18,11 @@ namespace WebAppMvc.Controllers
         }
 
         [Authorize]
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
+            var accessToken = await HttpContext.GetTokenAsync("access_token");
+
+            ViewBag.AccessToken = accessToken;
             return View();
         }
 

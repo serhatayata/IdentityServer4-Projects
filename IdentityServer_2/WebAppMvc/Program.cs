@@ -29,6 +29,7 @@ builder.Services.AddAuthentication(options =>
         options.SaveTokens = true;
         options.Scope.Add("profile");
         options.Scope.Add("Roles");
+        options.Scope.Add("offline_access");
         options.ClaimActions.MapUniqueJsonKey("role", "role");
         options.TokenValidationParameters = new TokenValidationParameters
         {
