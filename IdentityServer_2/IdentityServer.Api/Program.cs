@@ -1,16 +1,18 @@
 using IdentityServer.Api.Configurations;
+using IdentityServerHost.Quickstart.UI;
 
 #region Services
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddControllers();
+builder.Services.AddControllersWithViews();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 #region IdentityServer
 builder.Services.AddIdentityServer()
-                .AddDeveloperSigningCredential()   //This is for dev only scenarios when you don’t have a certificate to use.
-                .AddInMemoryApiScopes(Config.ApiScopes)
-                .AddInMemoryClients(Config.Clients);
+                .AddDeveloperSigningCredential()
+                .AddInMemoryIdentityResources(Config.IdentityResources)
+                .AddInMemoryClients(Config.Clients)
+                .AddTestUsers(TestUsers.Users);
 #endregion
 #endregion
 
@@ -22,12 +24,16 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
+app.UseStaticFiles();
 app.UseHttpsRedirection();
+
+app.UseRouting();
 app.UseAuthorization();
 app.UseIdentityServer();
 
-app.MapControllers();
+app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller=Home}/{action=Index}/{id?}");
 #endregion
 
 app.Run();

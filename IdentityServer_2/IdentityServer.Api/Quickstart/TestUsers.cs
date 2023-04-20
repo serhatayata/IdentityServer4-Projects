@@ -34,10 +34,11 @@ namespace IdentityServerHost.Quickstart.UI
                         Password = "alice",
                         Claims =
                         {
-                            new Claim(JwtClaimTypes.Name, "Alice Smith"),
+                            new Claim(JwtClaimTypes.Name, "Test 1"),
                             new Claim(JwtClaimTypes.GivenName, "Alice"),
                             new Claim(JwtClaimTypes.FamilyName, "Smith"),
                             new Claim(JwtClaimTypes.Email, "AliceSmith@email.com"),
+                            new Claim("role", "admin"),
                             new Claim(JwtClaimTypes.EmailVerified, "true", ClaimValueTypes.Boolean),
                             new Claim(JwtClaimTypes.WebSite, "http://alice.com"),
                             new Claim(JwtClaimTypes.Address, JsonSerializer.Serialize(address), IdentityServerConstants.ClaimValueTypes.Json)
