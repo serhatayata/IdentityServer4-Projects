@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "J0nehBGK4WrU2ViOzzOOzBBFQqNzNZpUmSkkkStZiM0qTNpD3Mb8oV/GR5Oe9JqbISphd7wQ1ilQGCzPt4mudQ==",
+  "dgSpecHash": "SUEADJYQxJJ9YLOIC/qqVpiRKRI2us3ZABCVHqsYxxYWzTIQFwGcuzeBSO+Zaq5f6lkebGeM5V75Fg+wisI23w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Serhat\\Desktop\\MICROSERVICES\\IdentityServer\\Catalog.API\\Catalog.API.csproj",
+  "projectFilePath": "C:\\Users\\Serhat\\Desktop\\MICROSERVICES\\IdentityServer\\IdentityServer_1\\Catalog.API\\Catalog.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Serhat\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.5\\microsoft.aspnetcore.authentication.jwtbearer.7.0.5.nupkg.sha512",
     "C:\\Users\\Serhat\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.4\\microsoft.aspnetcore.openapi.7.0.4.nupkg.sha512",

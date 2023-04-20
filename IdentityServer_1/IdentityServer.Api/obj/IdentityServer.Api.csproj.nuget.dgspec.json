@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Serhat\\Desktop\\MICROSERVICES\\IdentityServer\\IdentityServer.Api\\IdentityServer.Api.csproj": {}
+    "C:\\Users\\Serhat\\Desktop\\MICROSERVICES\\IdentityServer\\IdentityServer_1\\IdentityServer.Api\\IdentityServer.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Serhat\\Desktop\\MICROSERVICES\\IdentityServer\\IdentityServer.Api\\IdentityServer.Api.csproj": {
+    "C:\\Users\\Serhat\\Desktop\\MICROSERVICES\\IdentityServer\\IdentityServer_1\\IdentityServer.Api\\IdentityServer.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Serhat\\Desktop\\MICROSERVICES\\IdentityServer\\IdentityServer.Api\\IdentityServer.Api.csproj",
+        "projectUniqueName": "C:\\Users\\Serhat\\Desktop\\MICROSERVICES\\IdentityServer\\IdentityServer_1\\IdentityServer.Api\\IdentityServer.Api.csproj",
         "projectName": "IdentityServer.Api",
-        "projectPath": "C:\\Users\\Serhat\\Desktop\\MICROSERVICES\\IdentityServer\\IdentityServer.Api\\IdentityServer.Api.csproj",
+        "projectPath": "C:\\Users\\Serhat\\Desktop\\MICROSERVICES\\IdentityServer\\IdentityServer_1\\IdentityServer.Api\\IdentityServer.Api.csproj",
         "packagesPath": "C:\\Users\\Serhat\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Serhat\\Desktop\\MICROSERVICES\\IdentityServer\\IdentityServer.Api\\obj\\",
+        "outputPath": "C:\\Users\\Serhat\\Desktop\\MICROSERVICES\\IdentityServer\\IdentityServer_1\\IdentityServer.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Serhat\\AppData\\Roaming\\NuGet\\NuGet.Config",

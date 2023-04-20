@@ -869,11 +869,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Serhat\\Desktop\\MICROSERVICES\\IdentityServer\\Catalog.API\\Catalog.API.csproj",
+      "projectUniqueName": "C:\\Users\\Serhat\\Desktop\\MICROSERVICES\\IdentityServer\\IdentityServer_1\\Catalog.API\\Catalog.API.csproj",
       "projectName": "Catalog.API",
-      "projectPath": "C:\\Users\\Serhat\\Desktop\\MICROSERVICES\\IdentityServer\\Catalog.API\\Catalog.API.csproj",
+      "projectPath": "C:\\Users\\Serhat\\Desktop\\MICROSERVICES\\IdentityServer\\IdentityServer_1\\Catalog.API\\Catalog.API.csproj",
       "packagesPath": "C:\\Users\\Serhat\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Serhat\\Desktop\\MICROSERVICES\\IdentityServer\\Catalog.API\\obj\\",
+      "outputPath": "C:\\Users\\Serhat\\Desktop\\MICROSERVICES\\IdentityServer\\IdentityServer_1\\Catalog.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Serhat\\AppData\\Roaming\\NuGet\\NuGet.Config",

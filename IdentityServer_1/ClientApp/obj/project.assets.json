@@ -101,11 +101,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Serhat\\Desktop\\MICROSERVICES\\IdentityServer\\ClientApp\\ClientApp.csproj",
+      "projectUniqueName": "C:\\Users\\Serhat\\Desktop\\MICROSERVICES\\IdentityServer\\IdentityServer_1\\ClientApp\\ClientApp.csproj",
       "projectName": "ClientApp",
-      "projectPath": "C:\\Users\\Serhat\\Desktop\\MICROSERVICES\\IdentityServer\\ClientApp\\ClientApp.csproj",
+      "projectPath": "C:\\Users\\Serhat\\Desktop\\MICROSERVICES\\IdentityServer\\IdentityServer_1\\ClientApp\\ClientApp.csproj",
       "packagesPath": "C:\\Users\\Serhat\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Serhat\\Desktop\\MICROSERVICES\\IdentityServer\\ClientApp\\obj\\",
+      "outputPath": "C:\\Users\\Serhat\\Desktop\\MICROSERVICES\\IdentityServer\\IdentityServer_1\\ClientApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Serhat\\AppData\\Roaming\\NuGet\\NuGet.Config",

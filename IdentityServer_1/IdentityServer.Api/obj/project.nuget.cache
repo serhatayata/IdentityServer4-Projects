@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Y3a867W+ulk+3L9Rrz/oHQ3WdwZcHoP7ZCFRNsZ+xcAngZlziR7fzg91TkoHjVcA1m7MBzbhk6F9/tN8lwY36g==",
+  "dgSpecHash": "BrknB19fwviLHkoMl2X3gvnIH5p/D06Lm6sjKvgXeSG3GRihYvwfhWNs/VJ/5RXld3V4juJ1nx+5mLxNFjbrcA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Serhat\\Desktop\\MICROSERVICES\\IdentityServer\\IdentityServer.Api\\IdentityServer.Api.csproj",
+  "projectFilePath": "C:\\Users\\Serhat\\Desktop\\MICROSERVICES\\IdentityServer\\IdentityServer_1\\IdentityServer.Api\\IdentityServer.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Serhat\\.nuget\\packages\\identitymodel\\4.4.0\\identitymodel.4.4.0.nupkg.sha512",
     "C:\\Users\\Serhat\\.nuget\\packages\\identityserver4\\4.1.2\\identityserver4.4.1.2.nupkg.sha512",
